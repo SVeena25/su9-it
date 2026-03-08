@@ -1,0 +1,61 @@
+:root {
+  --accent: #f28c52;
+  --dark: #0f1720;
+  --light: #f6f6f3;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #ffffff 0%, #f4f1ea 100%);
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #1d2b36, #314b5f);
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(15, 23, 32, 0.25);
+}
+
+.stat {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(15, 23, 32, 0.6);
+}
+
+.icon-box {
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  box-shadow: 0 10px 20px rgba(15, 23, 32, 0.08);
+}
+
+.highlight-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 14px 30px rgba(15, 23, 32, 0.12);
+}
+
+.pricing-card .price {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.pricing-card.featured {
+  border: 2px solid var(--accent);
+}
